@@ -1,0 +1,48 @@
+.form__symbol-group {
+  width: 49%;
+  display: inline-block;
+}
+
+.form__symbol-input {
+  display: none;
+}
+
+.form__symbol-label {
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #617789;
+  cursor: pointer;
+  position: relative;
+  padding-left: 2.5rem;
+}
+
+.form__symbol-button {
+  height: 1.8rem;
+  width: 1.8rem;
+  border: 2px solid #bab8bd;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  /* background-color: #e9e9ea; */
+  left: 0;
+  top: -0.4rem;
+}
+.form__symbol-button::after {
+  content: '';
+  display: block;
+  height: 1.1rem;
+  width: 1.1rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.4rem;
+  background-color: black;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.form__symbol-input:checked ~ .form__symbol-label .form__symbol-button::after {
+  opacity: 1;
+}

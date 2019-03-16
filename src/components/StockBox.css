@@ -1,0 +1,12 @@
+.container {
+  min-height: 50rem;
+  min-width: 100rem;
+  border-radius: 5px;
+  border: 1px solid #dfe3e9;
+  box-shadow: 0px 0px 4px 1px #dfe3e9;
+  padding: 5rem 3rem;
+}
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+}

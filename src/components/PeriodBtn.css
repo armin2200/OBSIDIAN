@@ -1,0 +1,52 @@
+h2 {
+  font-size: 1rem;
+  display: block;
+  line-height: 1.5;
+  margin-bottom: 3px;
+  color: #485465;
+  text-transform: uppercase;
+}
+
+div {
+  display: block;
+}
+
+.btn {
+  padding: 1rem 1rem;
+  margin: 0;
+  vertical-align: middle;
+  border: solid 1px #617789;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-switcher {
+  background: linear-gradient(to bottom, white, #eeeeee);
+  display: table-cell;
+  border-right: none;
+  border-radius: 0;
+  color: #617789;
+}
+
+.btn-switcher:first-child {
+  border-radius: 4px 0 0 4px;
+}
+
+.btn-switcher:last-child {
+  border-radius: 0 4px 4px 0;
+  border-right: solid 1px #617789;
+}
+
+.btn-switcher:hover {
+  background: #fff;
+}
+
+.btn-switcher:active,
+.btn-switcher:focus {
+  background: #617789;
+  box-shadow: inset 0px 0px 8px 0px rgba(0, 0, 0, 0.1);
+  cursor: default;
+  color: #fff;
+  outline: none;
+}

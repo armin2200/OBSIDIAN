@@ -1,0 +1,7 @@
+.CheckBox__box {
+  display: flex;
+  justify-content: space-between;
+  width: 35rem;
+  border: solid 1px #617789;
+  padding: 1rem;
+}

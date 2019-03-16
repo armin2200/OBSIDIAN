@@ -1,0 +1,7 @@
+.symbol__box {
+  display: flex;
+  justify-content: space-between;
+  width: 28rem;
+  border: solid 1px #617789;
+  padding: 1rem;
+}
